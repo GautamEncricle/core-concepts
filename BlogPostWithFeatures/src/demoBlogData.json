@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to React",
+    "content": "<h2>What is React?</h2><p>React is a powerful JavaScript library for building user interfaces, especially single-page applications. It allows developers to create reusable UI components and manage the state efficiently using hooks and context.</p><h3>Key Features</h3><ul><li>Component-Based Architecture</li><li>Virtual DOM for Performance</li><li>Declarative UI</li></ul><p>React's virtual DOM improves performance by minimizing direct DOM manipulations, making your apps fast and responsive.</p><pre><code>import React from 'react';\n\nfunction App() {\n  return <h1>Hello, React!</h1>;\n}</code></pre>",
+    "category": "JavaScript",
+    "creationDate": "2023-01-15T10:00:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1011/800/400",
+      "alt": "JavaScript code on screen"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Understanding State and Props",
+    "content": "<h2>State vs Props</h2><p>State and props are fundamental concepts in React that enable dynamic and interactive UI.</p><h3>State</h3><p>State holds data that can change over time within a component.</p><h3>Props</h3><p>Props allow passing data and event handlers to child components.</p><blockquote>Proper use of these concepts leads to maintainable and scalable applications.</blockquote><pre><code>function Greeting(props) {\n  return <h1>Hello, {props.name}!</h1>;\n}</code></pre>",
+    "category": "React",
+    "creationDate": "2023-02-10T14:30:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1012/800/400",
+      "alt": "React logo and code"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Getting Started with Node.js",
+    "content": "<h2>Introduction</h2><p>Node.js is a runtime environment that allows JavaScript to be executed on the server side. It is built on Chrome's V8 engine and is widely used for building scalable network applications and APIs.</p><h3>Why Use Node.js?</h3><ul><li>Event-driven architecture</li><li>Non-blocking I/O</li><li>Large ecosystem with npm</li></ul><p>Its event-driven architecture makes it efficient for I/O-heavy tasks.</p><pre><code>const http = require('http');\n\nconst server = http.createServer((req, res) => {\n  res.statusCode = 200;\n  res.setHeader('Content-Type', 'text/plain');\n  res.end('Hello World');\n});\n\nserver.listen(3000);</code></pre>",
+    "category": "Node.js",
+    "creationDate": "2023-03-05T09:15:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1013/800/400",
+      "alt": "Node.js server environment"
+    }
+  },
+  {
+    "id": 4,
+    "title": "JavaScript ES6 Features You Should Know",
+    "content": "<h2>ES6 Overview</h2><p>ES6 introduced many new features to JavaScript such as arrow functions, template literals, destructuring, and classes.</p><h3>Examples</h3><ul><li><strong>Arrow Functions:</strong> <code>const add = (a, b) => a + b;</code></li><li><strong>Template Literals:</strong> <code>const greeting = `Hello, ${name}!`;</code></li><li><strong>Destructuring:</strong> <code>const {x, y} = point;</code></li></ul><p>These features make the language more expressive and easier to write, improving developer productivity and code readability.</p>",
+    "category": "JavaScript",
+    "creationDate": "2023-03-20T11:00:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1014/800/400",
+      "alt": "JavaScript ES6 code"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Building Reusable Components in React",
+    "content": "<h2>Why Reusable Components?</h2><p>Reusable components are the building blocks of React applications. By creating modular and composable components, developers can maintain code more efficiently and improve scalability.</p><h3>Best Practices</h3><ul><li>Keep components small and focused</li><li>Use props for customization</li><li>Leverage composition over inheritance</li></ul><p>This approach also facilitates testing and collaboration.</p>",
+    "category": "React",
+    "creationDate": "2023-04-01T13:45:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1015/800/400",
+      "alt": "React components structure"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Asynchronous Programming in Node.js",
+    "content": "<h2>Understanding Async in Node.js</h2><p>Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</p><h3>Techniques</h3><ul><li>Callbacks</li><li>Promises</li><li>Async/Await</li></ul><p>Understanding asynchronous programming is essential for Node.js development to handle concurrent operations effectively.</p>",
+    "category": "Node.js",
+    "creationDate": "2023-04-15T10:30:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1016/800/400",
+      "alt": "Asynchronous programming concept"
+    }
+  },
+  {
+    "id": 7,
+    "title": "JavaScript Closures Explained",
+    "content": "<h2>What are Closures?</h2><p>Closures are a fundamental concept in JavaScript that allow functions to access variables from an outer scope even after the outer function has returned.</p><h3>Use Cases</h3><ul><li>Data privacy</li><li>Function factories</li><li>Memoization</li></ul><p>They enable powerful programming patterns.</p>",
+    "category": "JavaScript",
+    "creationDate": "2023-04-25T09:00:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1018/800/400",
+      "alt": "JavaScript closure concept"
+    }
+  },
+  {
+    "id": 8,
+    "title": "React Hooks: A Complete Guide",
+    "content": "<h2>Introduction to Hooks</h2><p>React Hooks provide a powerful way to use state and other React features without writing classes.</p><h3>Common Hooks</h3><ul><li>useState</li><li>useEffect</li><li>useContext</li></ul><p>Hooks simplify component logic and improve code readability, making functional components more versatile.</p>",
+    "category": "React",
+    "creationDate": "2023-05-05T15:20:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1019/800/400",
+      "alt": "React hooks illustration"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Building REST APIs with Node.js and Express",
+    "content": "<h2>Express Framework</h2><p>Express is a minimal and flexible Node.js web application framework that provides a robust set of features for building APIs.</p><h3>Creating RESTful Endpoints</h3><p>Learn how to create RESTful endpoints and handle requests and responses effectively for scalable backend services.</p>",
+    "category": "Node.js",
+    "creationDate": "2023-05-15T12:10:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1020/800/400",
+      "alt": "Node.js Express API"
+    }
+  },
+  {
+    "id": 10,
+    "title": "JavaScript Event Loop and Concurrency",
+    "content": "<h2>Event Loop Basics</h2><p>The event loop is what allows JavaScript to perform non-blocking operations despite being single-threaded.</p><h3>Importance</h3><p>Understanding how the event loop works is key to writing efficient asynchronous code and avoiding common pitfalls like callback hell.</p>",
+    "category": "JavaScript",
+    "creationDate": "2023-05-25T11:00:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1021/800/400",
+      "alt": "JavaScript event loop diagram"
+    }
+  },
+  {
+    "id": 11,
+    "title": "React Router: Navigating Your Application",
+    "content": "<h2>React Router Overview</h2><p>React Router is a standard library for routing in React applications.</p><h3>Features</h3><ul><li>Dynamic routing</li><li>Nested routes</li><li>Route parameters</li></ul><p>It enables users to navigate through different components and pages seamlessly, enhancing the user experience in single-page applications.</p>",
+    "category": "React",
+    "creationDate": "2023-06-01T14:00:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1022/800/400",
+      "alt": "React Router navigation"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Node.js Streams: Handling Data Efficiently",
+    "content": "<h2>Streams in Node.js</h2><p>Streams in Node.js allow you to process data piece-by-piece, making it possible to handle large files or data sources efficiently without consuming large amounts of memory.</p><h3>Benefits</h3><ul><li>Memory efficiency</li><li>Faster processing</li><li>Backpressure handling</li></ul><p>This is essential for building performant applications.</p>",
+    "category": "Node.js",
+    "creationDate": "2023-06-10T09:30:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1023/800/400",
+      "alt": "Node.js streams concept"
+    }
+  },
+  {
+    "id": 13,
+    "title": "JavaScript Modules: Import and Export",
+    "content": "<h2>Modular JavaScript</h2><p>JavaScript modules allow you to break your code into reusable pieces.</p><h3>Syntax</h3><ul><li>Import: <code>import {foo} from './module';</code></li><li>Export: <code>export const foo = () => {};</code></li></ul><p>Organizing your code with modules improves maintainability and collaboration.</p>",
+    "category": "JavaScript",
+    "creationDate": "2023-06-15T10:45:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1024/800/400",
+      "alt": "JavaScript modules"
+    }
+  },
+  {
+    "id": 14,
+    "title": "State Management in React with Redux",
+    "content": "<h2>Redux Overview</h2><p>Redux is a predictable state container for JavaScript apps.</p><h3>Advantages</h3><ul><li>Centralized state</li><li>Predictable behavior</li><li>Easy testing</li></ul><p>It helps you write applications that behave consistently and are easy to test by centralizing the application state, making complex state management more manageable.</p>",
+    "category": "React",
+    "creationDate": "2023-06-20T13:15:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1025/800/400",
+      "alt": "Redux state management"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Building Real-time Applications with Node.js and WebSocket",
+    "content": "<h2>Real-time Communication</h2><p>WebSocket enables real-time, two-way communication between client and server.</p><h3>Use Cases</h3><ul><li>Chat applications</li><li>Live notifications</li><li>Collaborative tools</li></ul><p>Learn how to build chat apps and live notifications using Node.js and WebSocket technology for interactive user experiences.</p>",
+    "category": "Node.js",
+    "creationDate": "2023-06-25T11:50:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1026/800/400",
+      "alt": "WebSocket real-time communication"
+    }
+  },
+  {
+    "id": 16,
+    "title": "JavaScript Debugging Techniques",
+    "content": "<h2>Debugging in JavaScript</h2><p>Effective debugging is crucial for development.</p><h3>Techniques</h3><ul><li>Browser dev tools</li><li>Breakpoints</li><li>Console methods</li></ul><p>Explore various debugging techniques in JavaScript including using browser dev tools, breakpoints, and console methods to identify and fix issues efficiently.</p>",
+    "category": "JavaScript",
+    "creationDate": "2023-07-01T10:00:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1027/800/400",
+      "alt": "JavaScript debugging"
+    }
+  },
+  {
+    "id": 17,
+    "title": "React Performance Optimization Tips",
+    "content": "<h2>Performance Optimization</h2><p>Optimizing React applications can improve user experience.</p><h3>Tips</h3><ul><li>Memoization</li><li>Lazy loading</li><li>Avoid unnecessary renders</li></ul><p>Learn techniques like memoization, lazy loading, and avoiding unnecessary renders to boost performance and reduce resource consumption.</p>",
+    "category": "React",
+    "creationDate": "2023-07-05T14:30:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1028/800/400",
+      "alt": "React performance optimization"
+    }
+  },
+  {
+    "id": 18,
+    "title": "Node.js Security Best Practices",
+    "content": "<h2>Security Best Practices</h2><p>Security is vital in backend development.</p><h3>Recommendations</h3><ul><li>Input validation</li><li>Authentication</li><li>Secure dependencies</li></ul><p>Discover best practices for securing your Node.js applications including input validation, authentication, and secure dependencies to protect against common vulnerabilities.</p>",
+    "category": "Node.js",
+    "creationDate": "2023-07-10T09:15:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1029/800/400",
+      "alt": "Node.js security"
+    }
+  },
+  {
+    "id": 19,
+    "title": "JavaScript Functional Programming Concepts",
+    "content": "<h2>Functional Programming</h2><p>Functional programming in JavaScript promotes writing pure functions and avoiding side effects.</p><h3>Concepts</h3><ul><li>Higher-order functions</li><li>Immutability</li><li>Function composition</li></ul><p>Learn about higher-order functions, immutability, and function composition to write cleaner and more predictable code.</p>",
+    "category": "JavaScript",
+    "creationDate": "2023-07-15T11:00:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1030/800/400",
+      "alt": "JavaScript functional programming"
+    }
+  },
+  {
+    "id": 20,
+    "title": "React Context API for State Management",
+    "content": "<h2>Context API</h2><p>The React Context API provides a way to pass data through the component tree without having to pass props down manually at every level.</p><h3>Benefits</h3><ul><li>Simplifies state management</li><li>Reduces prop drilling</li></ul><p>Simplifying state management in many cases and reducing prop drilling.</p>",
+    "category": "React",
+    "creationDate": "2023-07-20T13:45:00Z",
+    "image": {
+      "url": "https://picsum.photos/id/1031/800/400",
+      "alt": "React Context API"
+    }
+  }
+]
