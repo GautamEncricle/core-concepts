@@ -4,7 +4,7 @@ const Portfolio = ({ bio }) => {
     return (
         <div style={styles.card}>
             <img
-                src="../public/myImage.webp"
+                src="./myImage.webp"
                 alt="Profile"
                 style={styles.image}
             />
